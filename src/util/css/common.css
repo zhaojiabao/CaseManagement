@@ -1,0 +1,170 @@
+/*公共样式*/
+
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	color: #333;
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+.clear-both:after {
+	display: table;
+	content: "";
+	clear: both;
+}
+
+input {
+	width: 100%;
+	border-radius: 4px;
+	border: 1px solid #eee;
+}
+
+.margin-length: {
+	margin: 10px 0;
+}
+
+
+/*每个页面限定内容为1200px 并且去除浮动*/
+
+.every-page {
+	width: 1200px;
+	margin: 30px auto;
+}
+
+
+/*修改iviews的输入框带icon组件默认样式*/
+
+.ivu-input-group-append,
+.ivu-input-group-prepend {
+	background: #fff !important;
+}
+
+.ivu-form-item {
+	margin-bottom: 20px !important;
+}
+
+.ivu-btn>span {
+	color: #FFFFFF;
+}
+
+
+/*修改iviews的默认弹出error样式（用户名密码处）*/
+
+.ivu-form-item-error-tip {
+	font-size: 12px;
+	padding-left: 5px;
+}
+
+.ivu-tabs-bar {
+	margin-bottom: 2px;
+}
+
+.qingjing {
+	width: 100%;
+}
+
+.qingjing th {
+	text-align: center;
+	background-color: #EEEEEE;
+	height: 30px;
+	line-height: 30px;
+}
+
+.qingjing td {
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #EEEEEE;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.overflow-hidden {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.changeBack {
+	background: #1890FF !important;
+}
+
+.ivu-btn-info,
+.ivu-btn-primary,
+.ivu-btn-success,
+.ivu-btn-error,
+.ivu-btn-warning {
+	background-color: #2c3f50 !important;
+	border-color: #2c3f50!important;
+	box-shadow: 0 0 10px #fff inset;
+}
+
+.ivu-btn-info:hover,
+.ivu-btn-primary:hover,
+.ivu-btn-success:hover,
+.ivu-btn-error:hover,
+.ivu-btn-warning:hover {
+	background-color: #57a3f3 !important;
+	border-color: #57a3f3!important;
+}
+
+.ivu-input,
+.ivu-select-selection {
+	border: 1px solid #ccc !important;
+}
+
+input[type=checkbox] {
+	width: 18px !important;
+	height: 18px !important;
+	/*-webkit-appearance:none;*/
+	background-color: #fff;
+}
+
+.scenename {
+	width: 80px;
+	height: 100px;
+	line-height: 20px;
+	display: inline-block;
+	float: left;
+	padding-top: 40px;
+}
+
+.clickdotshow {
+	display: inline-block;
+	padding: 2px 5px;
+	border: 1px solid #1890FF;
+	border-radius: 4px;
+	min-width: 100px;
+	max-width: 200px;
+}
+
+.table-common {
+	float: left;
+	box-sizing: border-box;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #eee;
+	background-color: #eee;
+	text-align: center;
+	font-weight: bold;
+}
+.table-common-td {
+	float: left;
+	box-sizing: border-box;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #CCCCCC;
+	text-align: center;
+}
+.font-size-color{
+	color:#fff !important;
+	}
